@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RestApiDemoWithTableView.xcodeproj">
+      location = "self:RestApiDemo.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CAEF1B0205A58700071C4E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEF1AF205A58700071C4E9 /* AppDelegate.swift */; };
-		0CAEF1B2205A58700071C4E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEF1B1205A58700071C4E9 /* ViewController.swift */; };
-		0CAEF1B5205A58710071C4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAEF1B3205A58710071C4E9 /* Main.storyboard */; };
-		0CAEF1B8205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEF1B6205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodeld */; };
-		0CAEF1BA205A58710071C4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAEF1B9205A58710071C4E9 /* Assets.xcassets */; };
-		0CAEF1BD205A58710071C4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAEF1BB205A58710071C4E9 /* LaunchScreen.storyboard */; };
-		0CAEF1C5205A5A1F0071C4E9 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEF1C4205A5A1F0071C4E9 /* HeroViewController.swift */; };
-		0CAEF1C7205A5B270071C4E9 /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEF1C6205A5B270071C4E9 /* HeroStats.swift */; };
+		0CAB45882057968C0010E2B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB45872057968C0010E2B5 /* AppDelegate.swift */; };
+		0CAB458A2057968C0010E2B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB45892057968C0010E2B5 /* ViewController.swift */; };
+		0CAB458D2057968C0010E2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB458B2057968C0010E2B5 /* Main.storyboard */; };
+		0CAB45902057968C0010E2B5 /* RestApiDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB458E2057968C0010E2B5 /* RestApiDemo.xcdatamodeld */; };
+		0CAB45922057968C0010E2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB45912057968C0010E2B5 /* Assets.xcassets */; };
+		0CAB45952057968C0010E2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB45932057968C0010E2B5 /* LaunchScreen.storyboard */; };
+		0CAB45A12057E3DC0010E2B5 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB45A02057E3DC0010E2B5 /* File */; };
+		0CAB45A32057EC8E0010E2B5 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB45A22057EC8E0010E2B5 /* CustomCell.swift */; };
+		0CAEF1C9205A818D0071C4E9 /* ModelOfGooglePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEF1C8205A818D0071C4E9 /* ModelOfGooglePlaces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CAEF1AC205A58700071C4E9 /* RestApiDemoWithTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApiDemoWithTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CAEF1AF205A58700071C4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CAEF1B1205A58700071C4E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CAEF1B4205A58710071C4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0CAEF1B7205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestApiDemoWithTableView.xcdatamodel; sourceTree = "<group>"; };
-		0CAEF1B9205A58710071C4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0CAEF1BC205A58710071C4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0CAEF1BE205A58710071C4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CAEF1C4205A5A1F0071C4E9 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
-		0CAEF1C6205A5B270071C4E9 /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
+		0CAB45842057968C0010E2B5 /* RestApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAB45872057968C0010E2B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CAB45892057968C0010E2B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CAB458C2057968C0010E2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CAB458F2057968C0010E2B5 /* RestApiDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestApiDemo.xcdatamodel; sourceTree = "<group>"; };
+		0CAB45912057968C0010E2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CAB45942057968C0010E2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CAB45962057968C0010E2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CAB45A02057E3DC0010E2B5 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		0CAB45A22057EC8E0010E2B5 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		0CAEF1C8205A818D0071C4E9 /* ModelOfGooglePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOfGooglePlaces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CAEF1A9205A58700071C4E9 /* Frameworks */ = {
+		0CAB45812057968B0010E2B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,75 +43,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CAEF1A3205A58700071C4E9 = {
+		0CAB457B2057968B0010E2B5 = {
 			isa = PBXGroup;
 			children = (
-				0CAEF1AE205A58700071C4E9 /* RestApiDemoWithTableView */,
-				0CAEF1AD205A58700071C4E9 /* Products */,
+				0CAB45862057968C0010E2B5 /* RestApiDemo */,
+				0CAB45852057968C0010E2B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0CAEF1AD205A58700071C4E9 /* Products */ = {
+		0CAB45852057968C0010E2B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CAEF1AC205A58700071C4E9 /* RestApiDemoWithTableView.app */,
+				0CAB45842057968C0010E2B5 /* RestApiDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CAEF1AE205A58700071C4E9 /* RestApiDemoWithTableView */ = {
+		0CAB45862057968C0010E2B5 /* RestApiDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0CAEF1AF205A58700071C4E9 /* AppDelegate.swift */,
-				0CAEF1B1205A58700071C4E9 /* ViewController.swift */,
-				0CAEF1C4205A5A1F0071C4E9 /* HeroViewController.swift */,
-				0CAEF1C6205A5B270071C4E9 /* HeroStats.swift */,
-				0CAEF1B3205A58710071C4E9 /* Main.storyboard */,
-				0CAEF1B9205A58710071C4E9 /* Assets.xcassets */,
-				0CAEF1BB205A58710071C4E9 /* LaunchScreen.storyboard */,
-				0CAEF1BE205A58710071C4E9 /* Info.plist */,
-				0CAEF1B6205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodeld */,
+				0CAB45872057968C0010E2B5 /* AppDelegate.swift */,
+				0CAB45892057968C0010E2B5 /* ViewController.swift */,
+				0CAB45A22057EC8E0010E2B5 /* CustomCell.swift */,
+				0CAEF1C8205A818D0071C4E9 /* ModelOfGooglePlaces.swift */,
+				0CAB458B2057968C0010E2B5 /* Main.storyboard */,
+				0CAB45912057968C0010E2B5 /* Assets.xcassets */,
+				0CAB45932057968C0010E2B5 /* LaunchScreen.storyboard */,
+				0CAB45962057968C0010E2B5 /* Info.plist */,
+				0CAB458E2057968C0010E2B5 /* RestApiDemo.xcdatamodeld */,
+				0CAB45A02057E3DC0010E2B5 /* File */,
 			);
-			path = RestApiDemoWithTableView;
+			path = RestApiDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CAEF1AB205A58700071C4E9 /* RestApiDemoWithTableView */ = {
+		0CAB45832057968B0010E2B5 /* RestApiDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CAEF1C1205A58710071C4E9 /* Build configuration list for PBXNativeTarget "RestApiDemoWithTableView" */;
+			buildConfigurationList = 0CAB45992057968C0010E2B5 /* Build configuration list for PBXNativeTarget "RestApiDemo" */;
 			buildPhases = (
-				0CAEF1A8205A58700071C4E9 /* Sources */,
-				0CAEF1A9205A58700071C4E9 /* Frameworks */,
-				0CAEF1AA205A58700071C4E9 /* Resources */,
+				0CAB45802057968B0010E2B5 /* Sources */,
+				0CAB45812057968B0010E2B5 /* Frameworks */,
+				0CAB45822057968B0010E2B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RestApiDemoWithTableView;
-			productName = RestApiDemoWithTableView;
-			productReference = 0CAEF1AC205A58700071C4E9 /* RestApiDemoWithTableView.app */;
+			name = RestApiDemo;
+			productName = RestApiDemo;
+			productReference = 0CAB45842057968C0010E2B5 /* RestApiDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0CAEF1A4205A58700071C4E9 /* Project object */ = {
+		0CAB457C2057968B0010E2B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Appinventiv;
 				TargetAttributes = {
-					0CAEF1AB205A58700071C4E9 = {
+					0CAB45832057968B0010E2B5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 0CAEF1A7205A58700071C4E9 /* Build configuration list for PBXProject "RestApiDemoWithTableView" */;
+			buildConfigurationList = 0CAB457F2057968B0010E2B5 /* Build configuration list for PBXProject "RestApiDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,57 +120,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 0CAEF1A3205A58700071C4E9;
-			productRefGroup = 0CAEF1AD205A58700071C4E9 /* Products */;
+			mainGroup = 0CAB457B2057968B0010E2B5;
+			productRefGroup = 0CAB45852057968C0010E2B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CAEF1AB205A58700071C4E9 /* RestApiDemoWithTableView */,
+				0CAB45832057968B0010E2B5 /* RestApiDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CAEF1AA205A58700071C4E9 /* Resources */ = {
+		0CAB45822057968B0010E2B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAEF1BD205A58710071C4E9 /* LaunchScreen.storyboard in Resources */,
-				0CAEF1BA205A58710071C4E9 /* Assets.xcassets in Resources */,
-				0CAEF1B5205A58710071C4E9 /* Main.storyboard in Resources */,
+				0CAB45A12057E3DC0010E2B5 /* File in Resources */,
+				0CAB45952057968C0010E2B5 /* LaunchScreen.storyboard in Resources */,
+				0CAB45922057968C0010E2B5 /* Assets.xcassets in Resources */,
+				0CAB458D2057968C0010E2B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CAEF1A8205A58700071C4E9 /* Sources */ = {
+		0CAB45802057968B0010E2B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAEF1C5205A5A1F0071C4E9 /* HeroViewController.swift in Sources */,
-				0CAEF1B8205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodeld in Sources */,
-				0CAEF1B2205A58700071C4E9 /* ViewController.swift in Sources */,
-				0CAEF1C7205A5B270071C4E9 /* HeroStats.swift in Sources */,
-				0CAEF1B0205A58700071C4E9 /* AppDelegate.swift in Sources */,
+				0CAB45902057968C0010E2B5 /* RestApiDemo.xcdatamodeld in Sources */,
+				0CAB458A2057968C0010E2B5 /* ViewController.swift in Sources */,
+				0CAB45A32057EC8E0010E2B5 /* CustomCell.swift in Sources */,
+				0CAEF1C9205A818D0071C4E9 /* ModelOfGooglePlaces.swift in Sources */,
+				0CAB45882057968C0010E2B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0CAEF1B3205A58710071C4E9 /* Main.storyboard */ = {
+		0CAB458B2057968C0010E2B5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0CAEF1B4205A58710071C4E9 /* Base */,
+				0CAB458C2057968C0010E2B5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0CAEF1BB205A58710071C4E9 /* LaunchScreen.storyboard */ = {
+		0CAB45932057968C0010E2B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0CAEF1BC205A58710071C4E9 /* Base */,
+				0CAB45942057968C0010E2B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0CAEF1BF205A58710071C4E9 /* Debug */ = {
+		0CAB45972057968C0010E2B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		0CAEF1C0205A58710071C4E9 /* Release */ = {
+		0CAB45982057968C0010E2B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,15 +286,15 @@
 			};
 			name = Release;
 		};
-		0CAEF1C2205A58710071C4E9 /* Debug */ = {
+		0CAB459A2057968C0010E2B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RestApiDemoWithTableView/Info.plist;
+				INFOPLIST_FILE = RestApiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Pods.RestApiDemoWithTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Pods.RestApiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -298,15 +302,15 @@
 			};
 			name = Debug;
 		};
-		0CAEF1C3205A58710071C4E9 /* Release */ = {
+		0CAB459B2057968C0010E2B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RestApiDemoWithTableView/Info.plist;
+				INFOPLIST_FILE = RestApiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Pods.RestApiDemoWithTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Pods.RestApiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -317,20 +321,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CAEF1A7205A58700071C4E9 /* Build configuration list for PBXProject "RestApiDemoWithTableView" */ = {
+		0CAB457F2057968B0010E2B5 /* Build configuration list for PBXProject "RestApiDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CAEF1BF205A58710071C4E9 /* Debug */,
-				0CAEF1C0205A58710071C4E9 /* Release */,
+				0CAB45972057968C0010E2B5 /* Debug */,
+				0CAB45982057968C0010E2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CAEF1C1205A58710071C4E9 /* Build configuration list for PBXNativeTarget "RestApiDemoWithTableView" */ = {
+		0CAB45992057968C0010E2B5 /* Build configuration list for PBXNativeTarget "RestApiDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CAEF1C2205A58710071C4E9 /* Debug */,
-				0CAEF1C3205A58710071C4E9 /* Release */,
+				0CAB459A2057968C0010E2B5 /* Debug */,
+				0CAB459B2057968C0010E2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -338,17 +342,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0CAEF1B6205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodeld */ = {
+		0CAB458E2057968C0010E2B5 /* RestApiDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0CAEF1B7205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodel */,
+				0CAB458F2057968C0010E2B5 /* RestApiDemo.xcdatamodel */,
 			);
-			currentVersion = 0CAEF1B7205A58710071C4E9 /* RestApiDemoWithTableView.xcdatamodel */;
-			path = RestApiDemoWithTableView.xcdatamodeld;
+			currentVersion = 0CAB458F2057968C0010E2B5 /* RestApiDemo.xcdatamodel */;
+			path = RestApiDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 0CAEF1A4205A58700071C4E9 /* Project object */;
+	rootObject = 0CAB457C2057968B0010E2B5 /* Project object */;
 }
